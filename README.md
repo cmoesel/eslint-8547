@@ -6,13 +6,26 @@ This project exists only to demonstrate the bug reported at:
 
 This project was created using the `create-react-app` command, and eslint was configured using the `eslint --init` command, specifying the AirBnB extension.  After that, the `yarn` command was run to update `yarn.lock` with changes that `eslint --init` made to the `package.json` file.  Finally, a few minor tweaks to dependency versions were made to resolve some issues w/ incompatible versions installed by `eslint --init`.  See the commits for the play-by-play.
 
-Here's how to reproduce the problem described in the bugs above.
+# Versions
 
-# Clone this repository
+Operating System: macOS Sierra 10.12.4
+Node: v6.6.0
+NPM: 3.10.3
+Yarn: 0.23.4
+
+# Data
+
+If you're a npm or yarn guru, maybe you just want to see the differences between the resulting `node_modules` folders.  OK!  Check out the [npm_data](npm_data) and [yarn_data](yarn_data) folders.  There I've checked in the results from `npm ls` and `yarn list`, as well as the entire contents of the respective `node_modules` folders.
+
+# Reproducing
+
+If you like tinkering, or don't believe me and want to see it for yourself (!), the instructions below describe how to reproduce this problem.
+
+## Clone this repository
 
 You're on Github.  Hopefully you know how to do this.
 
-# NPM Install and Run ESLint
+## NPM Install and Run ESLint
 
 **Run `npm install`**
 
@@ -40,7 +53,7 @@ Note that there are some eslint errors reported back, but these are _valid_ viol
 ✖ 8 problems (8 errors, 0 warnings)
 ```
 
-# Clean node_modules, Yarn Install and Run ESLint
+## Clean node_modules, Yarn Install and Run ESLint
 
 **Run `rm -rf node_modules`**
 

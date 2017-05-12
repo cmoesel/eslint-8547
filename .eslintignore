@@ -1,3 +1,5 @@
+npm_data/*
+yarn_data/*
 node_modules/*
 coverage/*
 build/*
