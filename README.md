@@ -8,10 +8,10 @@ This project was created using the `create-react-app` command, and eslint was co
 
 # Versions
 
-Operating System: macOS Sierra 10.12.4
-Node: v6.6.0
-NPM: 3.10.3
-Yarn: 0.23.4
+* Operating System: macOS Sierra 10.12.4
+* Node: v6.6.0
+* NPM: 3.10.3
+* Yarn: 0.23.4
 
 # Data
 
